@@ -1,0 +1,10 @@
+entidad: El postulado de entidad económica establece que la contabilidad de una empresa es independiente a las de sus accionistas, acreedores o deudores, y a la de cualquier otra organización. 
+negocio: Negocio en marcha: que la permanencia del negocio en el mercado no tendrá límite o fin, con excepción de las entidades en liquidación. 
+devengación: Devengación contable: las transacciones se reconocen cuando ocurren, no cuando se paga o cobra.
+asociación: Asociación de costos y gastos con ingresos:  establece que los costos y gastos de una entidad deben identificarse con los ingresos que se generen en el mismo periodo, independientemente de la fecha en que se cobren.
+valuación: Valuación:  establece que los efectos financieros de las transacciones deben cuantificarse en términos monetarios, atendiendo a los atributos del elemento a ser valuado, con el fin de captar el valor económico más objetivo. Inicialmente, el valor económico más objetivo es el valor de pago.
+dualidad: Dualidad económica: cada recurso tiene una fuente de financiamiento (Activo = Pasivo + Capital).
+consistencia: Consistencia: establece que ante la existencia de operaciones similares en una entidad debe corresponder un tratamiento contable semejante, el cual debe permanecer a través del tiempo, en tanto no cambie la esencia económica de las operaciones.
+sustancia: el postulado de  Sustancia económica establece que la sustancia económica de una entidad debe prevalecer en la delimitación y operación del sistema de información contable. 
+postulados: Veamos... Son 8 Postulados que permiten conocer la forma en que se lleva a cabo el registro de las operaciones de una organización económica: - Sustancia económica - Entidad económica - Devengación contable - Negocio en marcha - Asociación de costos y gastos con ingresos - Valuación - Dualidad económica - Consistencia 
+objetivo 

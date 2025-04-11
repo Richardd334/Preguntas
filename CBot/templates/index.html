@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Postulados Contables</title>
+    <style>
+        body {
+            background: #f2f2f7;
+            font-family:Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        form {
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+        input[type="text"]  {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        
+        button {
+            margin-top: 15px;
+            background-color: #200ae4;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0d0558;
+        }
+        .respuesta {
+            margin-top: 30px;
+            background: #64e8ff;
+            border-left: 6px solid #2b00c5;
+            padding: 20px;
+            border-radius: 10px;
+            color: #000000;
+            width: 100%;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Consulta de Postulados Contables</h1>
+    <form method="post">
+        <label for="message">Escribe tu pregunta:</label>
+        <input type="text" id="message" name="message" placeholder="Ej: ¿Qué dice el postulado de devengación?" required>
+        <button type="submit">Preguntar</button>
+    </form>
+
+    {% if respuesta %}
+        <div class="respuesta">
+            <strong>Respuesta:</strong>
+            <p>{{ respuesta | safe }}</p>
+        </div>
+    {% endif %}
+</body>
+</html>
